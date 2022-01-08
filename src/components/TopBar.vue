@@ -5,7 +5,7 @@
       @click="goHome"
       class="display-2 unselectable"
       style="cursor: pointer"
-      >coin<span class="primary--text">os</span></v-toolbar-title
+      >KI<span class="primary--text">SI</span></v-toolbar-title
     >
     <v-spacer></v-spacer>
     <v-btn
@@ -28,9 +28,9 @@
         </v-btn>
       </template>
       <v-card tile class="mx-auto menu" max-width="400">
-        <v-list-item @click="go('https://corporate.coinos.io/')">
+        <v-list-item @click="go('https://kisi.app/settings')">
           <v-list-item-action>
-            <v-icon color="blue lighten-2" title="About">$help</v-icon>
+            <v-icon color="blue lighten-2" title="settings">$help</v-icon>
           </v-list-item-action>
           <v-list-item-content>About</v-list-item-content>
         </v-list-item>
